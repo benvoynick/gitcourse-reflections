@@ -9,3 +9,6 @@ Since the files added to a single commit are under your control via the staging 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 As mentioned in the lesson, anything experimental that is not certain to be included in future master versions would be a good use for a branch. This could be a new feature, but could also include experiments like updating or switching between different libraries/frameworks/runtimes/etc.
+
+How do the diagrams help you visualize the branch structure?
+The git log is one-dimensional, showing only a straight line of commits. The diagrams provide a two-dimensional view, showing how branches all fit together (and how orphaned commits may not).
