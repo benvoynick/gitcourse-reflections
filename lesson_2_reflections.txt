@@ -1,3 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
 Initializing a repository specifies the root directory of the repository and creates the .git directory with the basic infrastructure for beginning to log commits. Without this context and infrastructure, git would have no definition of the overall project and its location in one's files.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Rather than being a snapshot of a former state of the working directory - or being the working directory itself - the staging area keeps real time track of what's going in to the next commit, without actually making a commit. This allows one to build the elements of an upcoming commit over time without losing the "index" of what's changed and what has been added for the upcoming commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Since the files added to a single commit are under your control via the staging area, you can selectively add only some files to a single commit - even if you made two different logical changes, so long as they were in separate files you can still commit them one at a time.
+
