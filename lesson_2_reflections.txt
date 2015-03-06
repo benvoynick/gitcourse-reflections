@@ -7,3 +7,5 @@ Rather than being a snapshot of a former state of the working directory - or bei
 How can you use the staging area to make sure you have one commit per logical change?
 Since the files added to a single commit are under your control via the staging area, you can selectively add only some files to a single commit - even if you made two different logical changes, so long as they were in separate files you can still commit them one at a time.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+As mentioned in the lesson, anything experimental that is not certain to be included in future master versions would be a good use for a branch. This could be a new feature, but could also include experiments like updating or switching between different libraries/frameworks/runtimes/etc.
