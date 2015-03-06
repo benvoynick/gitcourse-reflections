@@ -12,3 +12,6 @@ As mentioned in the lesson, anything experimental that is not certain to be incl
 
 How do the diagrams help you visualize the branch structure?
 The git log is one-dimensional, showing only a straight line of commits. The diagrams provide a two-dimensional view, showing how branches all fit together (and how orphaned commits may not).
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging does what the label says - the changes in both branches are combined together. Thus, it's represented in the diagram with two parents because it really does come from two parent commits!
