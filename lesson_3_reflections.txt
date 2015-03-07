@@ -4,3 +4,8 @@ If the project spans multiple computers, a remote repository provides a central 
 A remote repository helps provide backup in case something happens to the computer(s) used for development.
 
 If you have an audience, client, or other party who wants to watch development even if they may not be participating in it, a remote repository like GitHub provides a place for them to track progress. For instance: a public repository for an open source project, or a private repository for a client on a contract project.
+
+---Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+If you and someone else are working on the same branch at the same time, you could get into a very ugly situation where you are overwriting the same files with your commits. This situation won't be _quite_ as bad if you are each manually choosing when to pull.
+
+Even if you are not conflicting by working on the same files, having someone's alterations to different files on the same project could produce unexpected behaviors or bugs without warning.
