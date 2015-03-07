@@ -24,3 +24,11 @@ This way you can work off-line on your own commits without needing constant acce
 Without Git or Github, files would probably be on a shared network storage drive instead. Developers would have to choose between copying files locally - allowing access to others, but also making it possible that two versions of the same file will develop - or editing directly on the shared drive, locking others out. Mostly things would be harder. That said, adding your files back into the project would be as easy as saving (if editing directly) or copying files back over (if editing locally). Diffs could still be used to find out if you need to merge any changes, but overall history would need to be saved by manually taking snapshots of the project files.
 
 What would be easier is not having to deal with commits and branches - no time would be spent trying to parse the structure of the project. Again, though, this is mostly downside because the history and parallel development enabled by those things would not be available.
+
+---When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+The main benefit of working directly in master is speed and simplicity. This approach is going to be most appropriate when working solo, and/or when making bug fixes.
+
+The benefits of working in master are:
+-Not changing the main branch out from under others. (Good for collaboration.)
+-Keeping track of major new changes like additional features as a separate line of commits, to be added back in to master only when ready for "prime time."
+Using separate braches is generally going to be appropriate most of the time when collaborating with others, with the possible exception of very small bug fixes. When working solo, using branches other than master is still a good idea for any big new features that are going to take a while to become "production-ready."
