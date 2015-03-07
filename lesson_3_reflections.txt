@@ -16,3 +16,6 @@ A clone is a local copy of a repository. It makes no big difference to the overa
 Branches are a way of keeping track of different development tracks in a repository. They are useful when you want to make a temporary split in a project - perhaps for something as simple as having your own version of the project for a day or a week, or perhaps for something a bit longer term like working on an experimental feature for weeks or months. They are the ideal thing to use when you plan to (possibly) merge the branch back into master at some point down the road.
 
 Forks are when you need completely independent repositories. Perhaps because you are an outsider contributor who does not have access to the main repository, or perhaps because you are planning to take a project in a new, permanently different direction.
+
+---What is the benefit of having a copy of the last known state of the remote stored locally?
+This way you can work off-line on your own commits without needing constant access to the repository.
