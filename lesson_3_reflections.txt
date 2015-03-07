@@ -1,0 +1,6 @@
+---When would you want to use a remote repository rather than keeping all your work local?
+If the project spans multiple computers, a remote repository provides a central location for all of them. (Which might or might not involve multiple developers - maybe you just want to work from home or a coffee shop).
+
+A remote repository helps provide backup in case something happens to the computer(s) used for development.
+
+If you have an audience, client, or other party who wants to watch development even if they may not be participating in it, a remote repository like GitHub provides a place for them to track progress. For instance: a public repository for an open source project, or a private repository for a client on a contract project.
