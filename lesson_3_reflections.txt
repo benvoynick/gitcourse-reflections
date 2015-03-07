@@ -19,3 +19,8 @@ Forks are when you need completely independent repositories. Perhaps because you
 
 ---What is the benefit of having a copy of the last known state of the remote stored locally?
 This way you can work off-line on your own commits without needing constant access to the repository.
+
+---How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without Git or Github, files would probably be on a shared network storage drive instead. Developers would have to choose between copying files locally - allowing access to others, but also making it possible that two versions of the same file will develop - or editing directly on the shared drive, locking others out. Mostly things would be harder. That said, adding your files back into the project would be as easy as saving (if editing directly) or copying files back over (if editing locally). Diffs could still be used to find out if you need to merge any changes, but overall history would need to be saved by manually taking snapshots of the project files.
+
+What would be easier is not having to deal with commits and branches - no time would be spent trying to parse the structure of the project. Again, though, this is mostly downside because the history and parallel development enabled by those things would not be available.
