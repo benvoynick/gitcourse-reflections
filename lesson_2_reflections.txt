@@ -15,3 +15,8 @@ The git log is one-dimensional, showing only a straight line of commits. The dia
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging does what the label says - the changes in both branches are combined together. Thus, it's represented in the diagram with two parents because it really does come from two parent commits!
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging, as the name implies, can do a lot of the work for you, speeding up the process of merging. Insofar as it is able to proceed automatically, it also avoids introducing new typos and other human errors.
+
+One downside is that once the merging process has begun and any conflicted files have been cut up by Git, you really need to finish the job; there is no going bit by bit. If you leave in the middle and new code comes in, Git is not going to be able to handle the new commit - you'll have to dump your existing work and start again. Of course, this can be ameliorated by merging often.
